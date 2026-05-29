@@ -10,11 +10,11 @@ export default function AboutPage() {
         — an AI code reviewer that thinks like your best tech lead.
       </p>
       <p>
-        Before Propel, I was VP of Engineering at{' '}
+        Before Propel, I helped scale{' '}
         <a href="https://www.rippling.com" target="_blank" rel="noopener noreferrer">
           <strong>Rippling</strong>
         </a>
-        , where I helped scale the team from 60 to 600+ and built Platform and HR from the ground up. Before that, I
+        {' '}from Series A through Series E as VP of Engineering. Before that, I
         founded and ran a <strong>YC-backed startup</strong> as CTO, and earlier held engineering roles at{' '}
         <a href="https://x.com" target="_blank" rel="noopener noreferrer">
           Twitter
