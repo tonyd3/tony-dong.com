@@ -4,7 +4,7 @@ const investments = [
   { name: 'Braintrust', url: 'https://www.braintrust.dev/', backers: 'A16Z, Elad Gil, Greylock' },
   { name: 'Console', url: 'https://www.console.com/', backers: 'Thrive' },
   { name: 'Cytronic', url: 'https://cytronic.ai/', backers: 'Slow Ventures' },
-  { name: 'EvenUp', url: 'https://www.evenuplaw.com/', backers: 'BCV, Bessemer, LSVP, NFX' },
+  { name: 'EvenUp', url: 'https://www.evenuplaw.com/', backers: 'BCV, Bessemer, LSVP' },
   { name: 'Fifteenth', url: 'https://www.fifteenth.com/', backers: 'GC' },
   { name: 'Groundstack', url: 'https://groundstack.com/', backers: 'KP, Conviction' },
   { name: 'Malta', url: 'https://www.withmalta.com/', backers: 'GC' },
