@@ -1,4 +1,10 @@
-const investments = [
+type Investment = {
+  name: string;
+  backers: string;
+  url?: string;
+};
+
+const investments: Investment[] = [
   { name: 'Ando', url: 'https://www.ando.so/', backers: 'Accel, Index' },
   { name: 'Blacksmith', url: 'https://blacksmith.sh/', backers: 'Google Ventures, YC' },
   { name: 'Braintrust', url: 'https://www.braintrust.dev/', backers: 'A16Z, Elad Gil, Greylock' },
@@ -14,6 +20,7 @@ const investments = [
   { name: 'PermitFlow', url: 'https://www.permitflow.com/', backers: 'Accel, Felicis, Initialized, KP' },
   { name: 'Reevo', url: 'https://reevo.ai/', backers: 'Khosla, KP' },
   { name: 'Span', url: 'https://www.span.app/', backers: 'Benchmark, Craft' },
+  { name: 'Solara', backers: 'GC, Index' },
   { name: 'TierZero', url: 'https://www.tierzero.ai/', backers: 'Accel' },
   { name: 'Vybe', url: 'https://www.vybe.build/', backers: 'First Round, YC' },
 ];
@@ -33,9 +40,13 @@ export default function InvestingPage() {
       <ul className="investments">
         {investments.map(({ name, url, backers }) => (
           <li key={name}>
-            <a href={url} target="_blank" rel="noopener noreferrer">
-              {name}
-            </a>
+            {url ? (
+              <a href={url} target="_blank" rel="noopener noreferrer">
+                {name}
+              </a>
+            ) : (
+              <span>{name}</span>
+            )}
             <span className="backers">{backers}</span>
           </li>
         ))}
