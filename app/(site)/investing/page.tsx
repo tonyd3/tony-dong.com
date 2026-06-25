@@ -6,6 +6,7 @@ type Investment = {
 
 const investments: Investment[] = [
   { name: 'Ando', url: 'https://www.ando.so/', backers: 'Accel, Index' },
+  { name: 'Arca Wealth', url: 'https://arcawealth.com/', backers: 'GC, Index' },
   { name: 'Blacksmith', url: 'https://blacksmith.sh/', backers: 'Google Ventures, YC' },
   { name: 'Braintrust', url: 'https://www.braintrust.dev/', backers: 'A16Z, Elad Gil, Greylock' },
   { name: 'Console', url: 'https://www.console.com/', backers: 'Thrive' },
@@ -20,7 +21,6 @@ const investments: Investment[] = [
   { name: 'PermitFlow', url: 'https://www.permitflow.com/', backers: 'Accel, Felicis, Initialized, KP' },
   { name: 'Reevo', url: 'https://reevo.ai/', backers: 'Khosla, KP' },
   { name: 'Span', url: 'https://www.span.app/', backers: 'Benchmark, Craft' },
-  { name: 'Solara', backers: 'GC, Index' },
   { name: 'TierZero', url: 'https://www.tierzero.ai/', backers: 'Accel' },
   { name: 'Vybe', url: 'https://www.vybe.build/', backers: 'First Round, YC' },
 ];
